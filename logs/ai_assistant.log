@@ -1,0 +1,13 @@
+2025-03-09 10:29:03,015 - AI_Assistant_Manager - INFO - Claude client initialized with model: claude-3-sonnet-20240229
+2025-03-09 10:29:03,015 - AI_Assistant_Manager - INFO - DeepSeek client initialized with model: deepseek-r1-chat
+2025-03-09 10:29:03,015 - AI_Assistant_Manager - INFO - Gemini client initialized with model: gemini-pro
+2025-03-09 10:29:03,016 - AI_Assistant_Manager - INFO - AI Assistant Manager initialized with 3 assistants
+2025-03-09 10:29:03,017 - AI_Enhanced_Content_Generator - INFO - AI-Enhanced Content Generator initialized
+2025-03-09 10:29:03,017 - AI_Enhanced_Content_Generator - INFO - Generating pillar content for: Understanding CITB SMSTS Courses
+2025-03-09 10:29:03,638 - AI_Enhanced_Content_Generator - INFO - Generating content for topic: Understanding CITB SMSTS Courses
+2025-03-09 10:29:03,639 - AI_Enhanced_Content_Generator - INFO - Generating content brief for topic: Understanding CITB SMSTS Courses
+2025-03-09 10:29:03,640 - AI_Assistant_Manager - INFO - Using cached response for task: content_brief
+2025-03-09 10:29:03,640 - AI_Enhanced_Content_Generator - INFO - Content brief saved to output/content\briefs\understanding_citb_smsts_courses_brief.md
+2025-03-09 10:29:03,641 - AI_Assistant_Manager - INFO - Using cached response for task: content_optimization
+2025-03-09 10:29:03,642 - AI_Assistant_Manager - INFO - Using cached response for task: meta_description
+2025-03-09 10:29:03,643 - AI_Enhanced_Content_Generator - INFO - Content saved to output/content\articles\understanding_citb_smsts_courses.md

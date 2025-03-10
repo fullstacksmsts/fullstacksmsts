@@ -1,0 +1,107 @@
+{
+    "website": {
+        "url": "https://fullstacksmsts.co.uk",
+        "name": "Full Stack SMSTS",
+        "content_pillars": [
+            "Understanding CITB SMSTS Courses",
+            "Navigating SMSTS Course Delivery and Providers",
+            "SMSTS Course Content and Assessment",
+            "SMSTS vs. Other Certifications",
+            "Implementing SMSTS Knowledge on Site"
+        ]
+    },
+    "ai_assistant": {
+        "default": "claude",
+        "cache_ttl": 604800,
+        "claude": {
+            "model": "claude-3-sonnet-20240229",
+            "max_tokens": 4000,
+            "temperature": 0.7
+        },
+        "deepseek": {
+            "model": "deepseek-r1-chat",
+            "max_tokens": 4000,
+            "temperature": 0.7
+        },
+        "gemini": {
+            "model": "gemini-pro",
+            "max_tokens": 4000,
+            "temperature": 0.7
+        }
+    },
+    "keyword_research": {
+        "seed_keywords": [
+            "smsts course",
+            "smsts training",
+            "site management safety training scheme",
+            "citb smsts",
+            "smsts online"
+        ],
+        "competitors": [
+            "smsts-course.co.uk",
+            "knightlearning.co.uk",
+            "tamtraining.co.uk",
+            "goldcrosstraining.co.uk",
+            "3btraining.com"
+        ],
+        "locations": [
+            "London",
+            "Manchester",
+            "Birmingham",
+            "Glasgow",
+            "Leeds"
+        ]
+    },
+    "technical_audit": {
+        "crawl_depth": 3,
+        "user_agent": "SEOAutomationBot/1.0",
+        "check_items": [
+            "meta_tags",
+            "headings",
+            "images",
+            "links",
+            "structured_data",
+            "core_web_vitals",
+            "mobile_friendliness",
+            "page_speed",
+            "https",
+            "canonical_tags"
+        ]
+    },
+    "content_generation": {
+        "templates_dir": "templates",
+        "output_dir": "output/content",
+        "content_types": [
+            "pillar_content",
+            "location_pages",
+            "blog_posts",
+            "service_pages"
+        ]
+    },
+    "reporting": {
+        "report_type": "monthly",
+        "metrics": [
+            "organic_traffic",
+            "keyword_rankings",
+            "conversion_rate",
+            "technical_issues",
+            "content_performance"
+        ],
+        "email_recipients": [
+            "seo@fullstacksmsts.co.uk",
+            "marketing@fullstacksmsts.co.uk"
+        ],
+        "google_sheets": {
+            "enabled": true,
+            "credentials_file": "google-credentials.json",
+            "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
+            "share_with": []
+        }
+    },
+    "scheduling": {
+        "keyword_research": "monthly",
+        "technical_audit": "weekly",
+        "content_generation": "weekly",
+        "reporting": "monthly"
+    }
+}
