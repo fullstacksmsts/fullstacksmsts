@@ -1,0 +1,265 @@
+# Technical SEO Audit Checklist for fullstacksmsts.co.uk
+
+## Sheet 1: Audit Overview
+
+| Audit Category | Completion Status | Priority | Assigned To | Notes |
+|----------------|-------------------|----------|-------------|-------|
+| Crawlability & Indexation | Not Started | High | | |
+| Site Architecture | Not Started | High | | |
+| On-Page SEO | Not Started | High | | |
+| Content Quality | Not Started | Medium | | |
+| Mobile Usability | Not Started | High | | |
+| Page Speed & Core Web Vitals | Not Started | High | | |
+| Structured Data | Not Started | Medium | | |
+| Security & Technical Issues | Not Started | Medium | | |
+| International SEO | Not Started | Low | | |
+| Local SEO | Not Started | High | | |
+
+## Sheet 2: Crawlability & Indexation
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Robots.txt Configuration** | | | | | |
+| Robots.txt exists and is properly formatted | | | High | | |
+| Critical pages are not blocked | | | High | | |
+| Staging/development environments are blocked | | | Medium | | |
+| | | | | | |
+| **XML Sitemap** | | | | | |
+| XML Sitemap exists and is accessible | | | High | | |
+| Sitemap is properly formatted | | | High | | |
+| Sitemap includes all important pages | | | High | | |
+| Sitemap excludes non-indexable pages | | | Medium | | |
+| Sitemap is registered in Google Search Console | | | High | | |
+| | | | | | |
+| **Indexation Status** | | | | | |
+| Pages are properly indexed in Google | | | High | | |
+| No index bloat issues | | | Medium | | |
+| No duplicate content issues | | | High | | |
+| Canonical tags are properly implemented | | | High | | |
+| | | | | | |
+| **Crawl Errors** | | | | | |
+| No 4XX errors | | | High | | |
+| No 5XX errors | | | High | | |
+| No soft 404 errors | | | Medium | | |
+| Proper 301 redirects for changed URLs | | | High | | |
+| No redirect chains or loops | | | Medium | | |
+
+## Sheet 3: Site Architecture
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **URL Structure** | | | | | |
+| URLs are descriptive and keyword-rich | | | Medium | | |
+| URLs are concise and readable | | | Medium | | |
+| URL structure follows logical hierarchy | | | High | | |
+| No URL parameters causing duplicate content | | | Medium | | |
+| | | | | | |
+| **Internal Linking** | | | | | |
+| Proper internal linking structure | | | High | | |
+| No orphaned pages | | | Medium | | |
+| Proper use of anchor text | | | Medium | | |
+| Navigation is crawlable (no JavaScript issues) | | | High | | |
+| Breadcrumbs are implemented | | | Medium | | |
+| | | | | | |
+| **Content Organization** | | | | | |
+| Content is organized by topic clusters | | | High | | |
+| Pillar pages are properly established | | | High | | |
+| Supporting content links to pillar pages | | | Medium | | |
+| Category/tag structure is logical | | | Medium | | |
+
+## Sheet 4: On-Page SEO
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Title Tags** | | | | | |
+| All pages have unique title tags | | | High | | |
+| Title tags include primary keywords | | | High | | |
+| Title tags are optimal length (50-60 characters) | | | Medium | | |
+| Title tags follow brand pattern | | | Low | | |
+| | | | | | |
+| **Meta Descriptions** | | | | | |
+| All pages have unique meta descriptions | | | Medium | | |
+| Meta descriptions include relevant keywords | | | Medium | | |
+| Meta descriptions have call-to-actions | | | Low | | |
+| Meta descriptions are optimal length (120-158 characters) | | | Medium | | |
+| | | | | | |
+| **Heading Structure** | | | | | |
+| Proper H1-H6 hierarchy | | | High | | |
+| Each page has exactly one H1 | | | High | | |
+| Headings include relevant keywords | | | Medium | | |
+| Headings are descriptive and helpful | | | Medium | | |
+| | | | | | |
+| **Content Optimization** | | | | | |
+| Content addresses search intent | | | High | | |
+| Primary keywords are used in first 100 words | | | Medium | | |
+| Content includes semantic keywords | | | Medium | | |
+| Content is properly formatted (paragraphs, lists) | | | Medium | | |
+| Images have descriptive alt text | | | High | | |
+| | | | | | |
+| **Location-Specific Optimization** | | | | | |
+| Location pages exist for target cities | | | High | | |
+| Location pages have unique content | | | High | | |
+| Location keywords are used naturally | | | Medium | | |
+| Location schema is implemented | | | Medium | | |
+
+## Sheet 5: Mobile Usability
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Responsive Design** | | | | | |
+| Site uses responsive design | | | High | | |
+| No horizontal scrolling required | | | High | | |
+| Content displays properly on all devices | | | High | | |
+| | | | | | |
+| **Mobile-Specific Issues** | | | | | |
+| Viewport is properly configured | | | High | | |
+| Font sizes are readable on mobile | | | High | | |
+| Touch elements have adequate spacing | | | Medium | | |
+| No intrusive interstitials | | | High | | |
+| Forms are mobile-friendly | | | High | | |
+| | | | | | |
+| **Mobile Page Speed** | | | | | |
+| Mobile pages load quickly | | | High | | |
+| Mobile-specific Core Web Vitals | | | High | | |
+| AMP implementation (if applicable) | | | Low | | |
+
+## Sheet 6: Page Speed & Core Web Vitals
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Core Web Vitals** | | | | | |
+| Largest Contentful Paint (LCP) < 2.5s | | | High | | |
+| First Input Delay (FID) < 100ms | | | High | | |
+| Cumulative Layout Shift (CLS) < 0.1 | | | High | | |
+| | | | | | |
+| **General Page Speed** | | | | | |
+| Image optimization | | | High | | |
+| CSS/JS minification | | | Medium | | |
+| Browser caching | | | Medium | | |
+| GZIP compression | | | Medium | | |
+| Render-blocking resources | | | High | | |
+| Server response time | | | High | | |
+| | | | | | |
+| **Advanced Optimization** | | | | | |
+| Critical CSS implementation | | | Medium | | |
+| Lazy loading for images/videos | | | Medium | | |
+| Next-gen image formats | | | Medium | | |
+| Font optimization | | | Low | | |
+| Third-party script management | | | Medium | | |
+
+## Sheet 7: Structured Data
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Course Schema** | | | | | |
+| Implemented on all course pages | | | High | | |
+| Includes all required properties | | | High | | |
+| No errors in testing tool | | | High | | |
+| | | | | | |
+| **FAQ Schema** | | | | | |
+| Implemented on FAQ sections | | | Medium | | |
+| Questions and answers are properly marked up | | | Medium | | |
+| No errors in testing tool | | | Medium | | |
+| | | | | | |
+| **Organization Schema** | | | | | |
+| Implemented on homepage | | | Medium | | |
+| Includes logo, contact info, social profiles | | | Medium | | |
+| No errors in testing tool | | | Medium | | |
+| | | | | | |
+| **LocalBusiness Schema** | | | | | |
+| Implemented on location pages | | | High | | |
+| Includes address, hours, contact info | | | High | | |
+| No errors in testing tool | | | High | | |
+| | | | | | |
+| **Review Schema** | | | | | |
+| Implemented on testimonial sections | | | Medium | | |
+| Follows Google's guidelines | | | High | | |
+| No errors in testing tool | | | Medium | | |
+
+## Sheet 8: Security & Technical Issues
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **HTTPS Implementation** | | | | | |
+| Site uses HTTPS | | | High | | |
+| Proper SSL certificate | | | High | | |
+| Mixed content issues | | | High | | |
+| HSTS implementation | | | Medium | | |
+| | | | | | |
+| **Security Headers** | | | | | |
+| Content-Security-Policy | | | Medium | | |
+| X-XSS-Protection | | | Medium | | |
+| X-Frame-Options | | | Medium | | |
+| Referrer-Policy | | | Low | | |
+| | | | | | |
+| **WordPress-Specific** | | | | | |
+| Plugin security | | | High | | |
+| Theme security | | | High | | |
+| WordPress version | | | High | | |
+| File permissions | | | Medium | | |
+| Database security | | | High | | |
+
+## Sheet 9: Local SEO
+
+| Check Item | Status | Score (0-5) | Priority | Notes | Recommendations |
+|------------|--------|-------------|----------|-------|-----------------|
+| **Google Business Profile** | | | | | |
+| Profile is claimed and verified | | | High | | |
+| NAP consistency | | | High | | |
+| Categories are properly set | | | Medium | | |
+| Photos and attributes are updated | | | Medium | | |
+| | | | | | |
+| **Local Citations** | | | | | |
+| Consistent NAP across all citations | | | High | | |
+| Major citation sites are covered | | | High | | |
+| Industry-specific citations | | | Medium | | |
+| | | | | | |
+| **Location Pages** | | | | | |
+| Dedicated pages for each location | | | High | | |
+| Location-specific content | | | High | | |
+| Local keywords in title tags | | | High | | |
+| Local schema markup | | | High | | |
+| Maps integration | | | Medium | | |
+| | | | | | |
+| **Local Link Building** | | | | | |
+| Links from local businesses | | | Medium | | |
+| Chamber of commerce membership | | | Low | | |
+| Local sponsorships | | | Low | | |
+| Local press coverage | | | Medium | | |
+
+## Sheet 10: Action Plan
+
+| Priority | Issue | Page/Section | Recommendation | Difficulty | Impact | Status | Assigned To | Due Date |
+|----------|-------|--------------|----------------|-----------|--------|--------|-------------|----------|
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+
+## Sheet 11: Scoring Guide
+
+### Score Definitions
+- 0: Not implemented / Critical issues
+- 1: Implemented but with major issues
+- 2: Implemented with moderate issues
+- 3: Implemented with minor issues
+- 4: Well implemented with slight room for improvement
+- 5: Perfectly implemented
+
+### Priority Definitions
+- High: Critical for SEO performance, should be addressed immediately
+- Medium: Important for SEO performance, should be addressed in the near term
+- Low: Beneficial for SEO performance, can be addressed when resources allow
+
+### Status Options
+- Not Started
+- In Progress
+- Completed
+- Blocked
+- Deferred
